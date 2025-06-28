@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+body {
+  background: linear-gradient(90deg,#1e2336 0%, #34394d 100%);
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+}
+
+img {
+  margin-top: 156px;
+  width: 350px;
+}
+
+h1 {
+  font-size: 3em;
+  text-shadow: 1px 1px 3px #fff;
+  margin: 10px;
+}
+
+div {
+  margin: 0 auto;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+input {
+  margin: 10px;
+  padding: 10px 20px;
+  width: 200px;
+  height: 35px;
+  font-size: 16px;
+  appearance: none;
+  color: #000;
+}
+
+button {
+  background-color: #F23C3C;
+  margin: 30px;
+  padding: 15px 50px;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #b63737;
+}
+button:hover {
+  background-color: #b63737;
+  transition: 0.3s;
+}
+
+button:active {
+  background-color: #612c2c;
+}
+
+footer{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+
+
