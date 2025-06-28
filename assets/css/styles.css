@@ -12,7 +12,6 @@ body {
   background: linear-gradient(90deg,#1e2336 0%, #34394d 100%);
   text-align: center;
   width: 100vw;
-  height: 100vh;
 }
 
 h2 {
@@ -33,7 +32,7 @@ h1 {
 
 div {
   margin: 0 auto;
-  width: 450px;
+  max-width: 450px;
   display: flex;
   justify-content: space-between;
    
@@ -78,5 +77,10 @@ footer{
   text-align: center;
 }
 
-
+@media screen and (max-width: 480px) {
+  input {
+  min-width: 120px;
+  }
+  
+}
 
